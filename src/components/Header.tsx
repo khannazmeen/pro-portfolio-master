@@ -173,18 +173,18 @@ const Header = () => {
               </ListItem>
             ))}
         </List>
-        <ul className="flex items-center justify-center gap-[5px]">
+        <ul className="flex  gap-[5px]">
           <li>
             <IconButton
               size="large"
               LinkComponent={"a"}
-              href="https://www.linkedin.com/in/karan-maurya-83b856205/"
+              href="https://www.linkedin.com/in/nazmeen-khan-853779242/"
               target={"_blank"}
             >
               <LinkedIn className="text-white" fontSize="medium" />
             </IconButton>
           </li>
-          <li>
+          {/* <li>
             <IconButton
               size="large"
               LinkComponent={"a"}
@@ -203,7 +203,7 @@ const Header = () => {
             >
               <Instagram className="text-white" fontSize="medium" />
             </IconButton>
-          </li>
+          </li> */}
         </ul>
       </div>
       {isMenuVisible && (
