@@ -62,7 +62,7 @@ export const data = {
 
     {
       id: 4,
-      project_name: "Travel Hajj and Umrah Inquiry Portal",
+      project_name: "Travel-Classified",
       project_date: "JUL 2023 - JUN 2024",
       project_description:
         "Hajj & Umrah is a platform that allows users to make seamless inquiries and bookings for pilgrimage services via web and mobile app.",
@@ -100,10 +100,10 @@ export const data = {
     },
     {
       id: 5,
-      project_name: "Car Rental - Car with Driver",
+      project_name: "CarRental",
       project_date: "JUL 2024 - JUN 2025",
       project_description:
-        "Car Rental - Car with Driver is a platform that allows users to seamlessly book rides with professional drivers via web and mobile app, with integrated payment gateways and social login.",
+        "CarRental - Car with Driver is a platform that allows users to seamlessly book rides with professional drivers via web and mobile app, with integrated payment gateways and social login.",
       // project_link: "https://carrental.rightbraininfotech.in/",
       project_tasks: [
         { id: 0, task: "Developed web application using React (TypeScript)" },
@@ -139,7 +139,7 @@ export const data = {
     },
     {
       id: 4,
-      project_name: "Aakakshi / Karma Accounting System",
+      project_name: "Aakakshi",
       project_date: "JUN 2025 - Present",
       project_description:
         "Aakakshi is a comprehensive karma and financial accounting system with AI-assisted recommendations, token tracking, and dashboards for interfaith reporting and self-improvement.",
