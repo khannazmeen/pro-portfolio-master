@@ -37,55 +37,55 @@ const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const [message, setMessage] = React.useState("");
   const [responseType, setResponseType] = React.useState<AlertColor>("success");
-  // const contactForm = useFormik({
-  //   initialValues: {
-  //     firstName: "",
-  //     lastName: "",
-  //     email: "",
-  //     phone: "",
-  //     message: ""
-  //   },
-  //   validationSchema: ContactFormSchema,
-  //   onSubmit: (values: any) => {
-  //     handleFormSubmitAsync(values);
-  //   }
-  // });
+  const contactForm = useFormik({
+    initialValues: {
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      message: ""
+    },
+    validationSchema: ContactFormSchema,
+    onSubmit: (values: any) => {
+      handleFormSubmitAsync(values);
+    }
+  });
 
-  // const handleFormSubmitAsync = async (values: FormValues | any) => {
-  //   let payload = new FormData();
-  //   Object.keys(values).forEach((key) => payload.append(key, values[key]));
+  const handleFormSubmitAsync = async (values: FormValues | any) => {
+    let payload = new FormData();
+    Object.keys(values).forEach((key) => payload.append(key, values[key]));
 
-  //   try {
-  //     fetch("https://formspree.io/f/xqkrpbqn", {
-  //       method: "POST",
-  //       body: payload,
-  //       headers: {
-  //         Accept: "application/json"
-  //       }
-  //     })
-  //       .then((response) => {
-  //         if (response.ok) {
-  //           setResponseType("success");
-  //           setMessage("Thanks, will get back to you soon.");
-  //           handleClick();
-  //           contactForm.resetForm();
-  //         } else {
-  //           setResponseType("error");
-  //           setMessage("Oops! Something went wrong, please try again later.");
-  //           handleClick();
-  //         }
-  //       })
-  //       .catch(() => {
-  //         setResponseType("error");
-  //         setMessage("Oops! Something went wrong, please try again later.");
-  //         handleClick();
-  //       });
-  //   } catch (err) {
-  //     setResponseType("error");
-  //     setMessage("Oops! Something went wrong, please try again later.");
-  //     handleClick();
-  //   }
-  // };
+    try {
+      fetch("https://formspree.io/f/mzzjkpbo", {
+        method: "POST",
+        body: payload,
+        headers: {
+          Accept: "application/json"
+        }
+      })
+        .then((response) => {
+          if (response.ok) {
+            setResponseType("success");
+            setMessage("Thanks, will get back to you soon.");
+            handleClick();
+            contactForm.resetForm();
+          } else {
+            setResponseType("error");
+            setMessage("Oops! Something went wrong, please try again later.");
+            handleClick();
+          }
+        })
+        .catch(() => {
+          setResponseType("error");
+          setMessage("Oops! Something went wrong, please try again later.");
+          handleClick();
+        });
+    } catch (err) {
+      setResponseType("error");
+      setMessage("Oops! Something went wrong, please try again later.");
+      handleClick();
+    }
+  };
 
   const handleClick = () => {
     setOpen(true);
@@ -164,7 +164,7 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-          {/* <div className="md:p-5 p-0 my-5 md:my-0 flex-1">
+          <div className="md:p-5 p-0 my-5 md:my-0 flex-1">
             <form onSubmit={contactForm.handleSubmit} id="contact-form">
               <div className="flex flex-col gap-6">
                 <div className="flex sm:flex-row flex-col items-center gap-6">
@@ -292,7 +292,7 @@ const Contact = () => {
                 </Button>
               </div>
             </form>
-          </div> */}
+          </div>
         </div>
       </div>
       {/* alerts */}

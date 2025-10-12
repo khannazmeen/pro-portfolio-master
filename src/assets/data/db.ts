@@ -1,449 +1,94 @@
 export const data = {
   projects: [
-   {
+    {
       id: 0,
       project_name: "Neev",
-      project_date: "JAN 2022 - JUN 2022",
+      project_date: "JAN 2022 - APR 2022",
       project_description:
-        "Neev is a healthcare platform through which users can book yoga classes, health products and more",
+        "Neev is a healthcare platform that allows users to book yoga classes, health products, and more via web",
       // project_link: "#",
       project_tasks: [
-        {
-          id: 0,
-          task: "Converting Design Systems into reusable CSS and Components"
-        },
-        {
-          id: 1,
-          task: "Making complex layouts"
-        },
-        {
-          id: 2,
-          task: "Developing and maintaining the user interfaces"
-        },
-        {
-          id: 3,
-          task: "Worked on Optimization, Performance and UX Improvement."
-        },
-        {
-          id: 4,
-          task: "Making Responsive UI."
-        },
-        {
-          id: 5,
-          task: "Integrating API's and RESTful Services."
-        }
+        { id: 0, task: "Converted design systems into reusable CSS and components" },
+        { id: 1, task: "Created complex and responsive layouts" },
+        { id: 2, task: "Developed and maintained user interfaces using React" },
+        { id: 3, task: "Optimized performance and improved user experience (UX)" },
+        { id: 4, task: "Implemented fully responsive UI designs" }
       ],
       skills_utilized: [
-        {
-          id: 0,
-          name: "HTML"
-        },
-        {
-          id: 1,
-          name: "SCSS"
-        },
-        {
-          id: 2,
-          name: "JavaScript"
-        },
-        {
-          id: 3,
-          name: "React"
-        },
-        {
-          id: 10,
-          name: "Typescript"
-        },
-        {
-          id: 5,
-          name: "Figma"
-        },
-        {
-          id: 6,
-          name: "Responsive Design"
-        },
-        {
-          id: 7,
-          name: "REST"
-        },
-        {
-          id: 8,
-          name: "Tailwindcss"
-        },
-        {
-          id: 9,
-          name: "Material UI"
-        }
+        { id: 0, name: "HTML" },
+        { id: 1, name: "CSS" },
+        { id: 2, name: "JavaScript" },
+        { id: 3, name: "React" },
+        { id: 4, name: "TypeScript" },
+        { id: 5, name: "Responsive Design" },
+        { id: 6, name: "TailwindCSS" },
+        { id: 7, name: "Material UI" },
+        { id: 8, name: "Chakra UI" }
       ],
       organization: [
-        {
-          id: 0,
-          name: "RightBrain Infotech",
-          website: "https://www.rightbraininfotech.in/"
-        }
+        { id: 0, name: "Right Brain Infotech", website: "https://www.rightbraininfotech.in/" }
       ]
     },
-  
     {
       id: 1,
-      project_name: "Spotfinder-USA",
-      project_date: "JUN 2022 - MAY 2023",
+      project_name: "Spotfinder",
+      project_date: "MAY 2022 - JUN 2023",
       project_description:
-        "Spotfinder is a platform where users will be able to book car parkings through a mobile app/ web at ease",
+        "Spotfinder is a platform that allows users to easily book car parkings via web and mobile app.",
       // project_link: "https://spotfinder.app/",
       project_tasks: [
-        {
-          id: 0,
-          task: "Converting Design Systems into reusable CSS and Components"
-        },
-        {
-          id: 1,
-          task: "Making complex layouts"
-        },
-        {
-          id: 2,
-          task: "Developing and maintaining the user interfaces"
-        },
-        {
-          id: 3,
-          task: "Worked on Optimization, Performance and UX Improvement."
-        },
-        {
-          id: 4,
-          task: "Making Responsive UI."
-        },
-        {
-          id: 5,
-          task: "Integrating API's and RESTful Services."
-        }
+        { id: 0, task: "Converted design systems into reusable CSS and components" },
+        { id: 1, task: "Created complex and responsive layouts for web and mobile" },
+        { id: 2, task: "Developed and maintained user interfaces using React and React Native" },
+        { id: 3, task: "Optimized performance and improved user experience (UX)" },
+        { id: 4, task: "Implemented fully responsive UI designs" },
+        { id: 5, task: "Integrated APIs and RESTful services" }
       ],
       skills_utilized: [
-        {
-          id: 0,
-          name: "HTML"
-        },
-        {
-          id: 1,
-          name: "SCSS"
-        },
-        {
-          id: 2,
-          name: "JavaScript"
-        },
-        {
-          id: 3,
-          name: "React"
-        },
-        {
-          id: 11,
-          name: "React Native"
-        },
-        {
-          id: 10,
-          name: "Typescript"
-        },
-        {
-          id: 5,
-          name: "Figma"
-        },
-        {
-          id: 6,
-          name: "Responsive Design"
-        },
-        {
-          id: 7,
-          name: "REST"
-        },
-        {
-          id: 8,
-          name: "Tailwindcss"
-        },
-        {
-          id: 9,
-          name: "Material UI"
-        }
+        { id: 0, name: "HTML" },
+        { id: 1, name: "CSS" },
+        { id: 2, name: "JavaScript" },
+        { id: 3, name: "React" },
+        { id: 4, name: "React Native" },
+        { id: 5, name: "TypeScript" },
+        { id: 6, name: "Responsive Design" },
+        { id: 7, name: "REST API" },
+        { id: 8, name: "TailwindCSS" },
       ],
       organization: [
-        {
-          id: 0,
-          name: "RightBrain Infotech",
-          website: "https://www.rightbraininfotech.in/"
-        }
+        { id: 0, name: "Right Brain Infotech", website: "https://www.rightbraininfotech.in/" }
       ]
     },
-    {
-      id: 2,
-      project_name: "Spotfinder-India",
-      project_date: "MAY 2023 - DEC 2023",
-      project_description:
-        "Spotfinder is a platform where users will be able to book car parkings through a mobile app/ web at ease",
-      // project_link: "https://in.spotfinder.app/",
-      project_tasks: [
-        {
-          id: 0,
-          task: "Converting Design Systems into reusable CSS and Components"
-        },
-        {
-          id: 1,
-          task: "Making complex layouts"
-        },
-        {
-          id: 2,
-          task: "Developing and maintaining the user interfaces"
-        },
-        {
-          id: 3,
-          task: "Worked on Optimization, Performance and UX Improvement."
-        },
-        {
-          id: 4,
-          task: "Making Responsive UI."
-        },
-        {
-          id: 5,
-          task: "Integrating API's and RESTful Services."
-        }
-      ],
-      skills_utilized: [
-        {
-          id: 0,
-          name: "HTML"
-        },
-        {
-          id: 1,
-          name: "SCSS"
-        },
-        {
-          id: 2,
-          name: "JavaScript"
-        },
-        {
-          id: 3,
-          name: "React"
-        },
-        {
-          id: 11,
-          name: "React Native"
-        },
-        {
-          id: 10,
-          name: "Typescript"
-        },
-        {
-          id: 5,
-          name: "Figma"
-        },
-        {
-          id: 6,
-          name: "Responsive Design"
-        },
-        {
-          id: 7,
-          name: "REST"
-        },
-        {
-          id: 8,
-          name: "Tailwindcss"
-        },
-        {
-          id: 9,
-          name: "Material UI"
-        }
-      ],
-      organization: [
-        {
-          id: 0,
-          name: "RightBrain Infotech",
-          website: "https://www.rightbraininfotech.in/"
-        }
-      ]
-    },
- 
-    {
-      id: 3,
-      project_name: "Medusa Marketplace and E-commerce Platform",
-      project_date: "JAN 2024 - AUG 2024",
-      project_description:
-        "A custom-built multi-vendor marketplace and e-commerce platform powered by Medusa.js. It includes a customer portal, admin dashboard, and vendor onboarding system with seamless payment integration and order tracking.",
-      // project_link: "https://yourmedusamarketplace.com/",
-      project_tasks: [
-        {
-          id: 0,
-          task: "Developed custom storefront using Next.js and TypeScript"
-        },
-        {
-          id: 1,
-          task: "Built Admin and Vendor Dashboard using React and TailwindCSS"
-        },
-        {
-          id: 2,
-          task: "Integrated Medusa backend APIs for product, order, and user management"
-        },
-        {
-          id: 3,
-          task: "Set up multi-vendor support with role-based authentication"
-        },
-        {
-          id: 4,
-          task: "Integrated payment gateways like Stripe and Cashfree"
-        },
-        {
-          id: 5,
-          task: "Implemented real-time order tracking using Webhooks and Background Jobs"
-        },
-        {
-          id: 6,
-          task: "Optimized website for SEO, performance, and mobile responsiveness"
-        },
-        {
-          id: 7,
-          task: "Handled server deployment and database migration using Flyway and Docker"
-        }
-      ],
-      skills_utilized: [
-        {
-          id: 0,
-          name: "Next.js"
-        },
-        {
-          id: 1,
-          name: "React"
-        },
-        {
-          id: 2,
-          name: "TailwindCSS"
-        },
-        {
-          id: 3,
-          name: "TypeScript"
-        },
-        {
-          id: 4,
-          name: "Medusa.js"
-        },
-        {
-          id: 5,
-          name: "Node.js"
-        },
-        {
-          id: 6,
-          name: "Stripe API"
-        },
-        {
-          id: 7,
-          name: "Cashfree API"
-        },
-        {
-          id: 8,
-          name: "Docker"
-        },
-        {
-          id: 9,
-          name: "Flyway"
-        },
-        {
-          id: 10,
-          name: "PostgreSQL"
-        },
-        {
-          id: 11,
-          name: "REST API"
-        },
-        {
-          id: 12,
-          name: "Figma"
-        }
-      ],
-      organization: [
-        {
-          id: 0,
-          name: "RightBrain Infotech",
-          website: "https://www.rightbraininfotech.in/"
-        }
-      ]
-    },
+
     {
       id: 4,
       project_name: "Travel Hajj and Umrah Inquiry Portal",
-      project_date: "AUG 2024 - JAN 2024",
+      project_date: "JUL 2023 - JUN 2024",
       project_description:
-        "Developed a responsive Hajj and Umrah inquiry portal for seamless inquiry and booking services. The platform features a modern frontend with React (TypeScript), Ionic React, Tailwind CSS, and Material UI, integrated with a robust backend built on Spring Boot and REST APIs for real-time connectivity with service providers.",
+        "Hajj & Umrah is a platform that allows users to make seamless inquiries and bookings for pilgrimage services via web and mobile app.",
       // project_link: "https://hajumrah.rightbraininfotech.in/",
       project_tasks: [
-        {
-          id: 0,
-          task: "Designed and developed responsive UI using React, Tailwind CSS, and Material UI"
-        },
-        {
-          id: 1,
-          task: "Built mobile-ready views using Ionic React for better cross-platform experience"
-        },
-        {
-          id: 2,
-          task: "Developed backend services and APIs using Spring Boot (Java)"
-        },
-        {
-          id: 3,
-          task: "Integrated real-time service provider APIs for inquiry and booking management"
-        },
-        {
-          id: 4,
-          task: "Worked on booking flow, inquiry management, and user authentication"
-        },
-        {
-          id: 5,
-          task: "Focused on performance optimization, security, and responsive design"
-        },
-        {
-          id: 6,
-          task: "Deployed and maintained the project with proper version control and CI/CD practices"
-        }
+        { id: 0, task: "Converted design systems into reusable CSS and components" },
+        { id: 1, task: "Created complex and responsive layouts for web and mobile" },
+        { id: 2, task: "Developed and maintained user interfaces using React and Ionic React" },
+        { id: 3, task: "Built backend APIs and business logic using Spring Boot (Java)" },
+        { id: 4, task: "Integrated frontend with RESTful APIs for real-time data exchange" },
+        { id: 5, task: "Optimized performance and enhanced user experience (UX)" }
       ],
       skills_utilized: [
-        {
-          id: 0,
-          name: "React"
-        },
-        {
-          id: 1,
-          name: "TypeScript"
-        },
-        {
-          id: 2,
-          name: "Ionic React"
-        },
-        {
-          id: 3,
-          name: "TailwindCSS"
-        },
-        {
-          id: 4,
-          name: "Material UI"
-        },
-        {
-          id: 5,
-          name: "Spring Boot"
-        },
-        {
-          id: 6,
-          name: "Java"
-        },
-        {
-          id: 7,
-          name: "REST API"
-        },
-        {
-          id: 8,
-          name: "PostgreSQL" // assuming you used it; can be edited
-        },
-        {
-          id: 9,
-          name: "Responsive Design"
-        },
-        {
-          id: 10,
-          name: "Figma"
-        }
+        { id: 0, name: "HTML" },
+        { id: 1, name: "CSS" },
+        { id: 2, name: "JavaScript" },
+        { id: 3, name: "React" },
+        { id: 4, name: "TypeScript" },
+        { id: 5, name: "Ionic React" },
+        { id: 6, name: "TailwindCSS" },
+        { id: 7, name: "Material UI" },
+        { id: 8, name: "Spring Boot" },
+        { id: 9, name: "Java" },
+        { id: 10, name: "REST API" },
+        { id: 11, name: "PostgreSQL" },
+        { id: 12, name: "Responsive Design" },
       ],
       organization: [
         {
@@ -456,89 +101,33 @@ export const data = {
     {
       id: 5,
       project_name: "Car Rental - Car with Driver",
-      project_date: "JAN 2025 - Present",
+      project_date: "JUL 2024 - JUN 2025",
       project_description:
-        "Developing a Car with Driver booking platform using React (TypeScript) for web, React Native for mobile, and Spring Boot for backend services. The platform features seamless ride booking, real-time tracking with Google Maps API and Mapbox, and supports multiple payment gateways for smooth transactions.",
+        "Car Rental - Car with Driver is a platform that allows users to seamlessly book rides with professional drivers via web and mobile app, with integrated payment gateways and social login.",
       // project_link: "https://carrental.rightbraininfotech.in/",
       project_tasks: [
-        {
-          id: 0,
-          task: "Developing web application using React (TypeScript)"
-        },
-        {
-          id: 1,
-          task: "Building mobile application using React Native"
-        },
-        {
-          id: 2,
-          task: "Integrating multiple payment gateways for ride payments"
-        },
-        {
-          id: 3,
-          task: "Implementing real-time ride tracking with Google Maps and Mapbox APIs"
-        },
-        {
-          id: 4,
-          task: "Developing backend services with Spring Boot (Java)"
-        },
-        {
-          id: 5,
-          task: "Managing bookings, ride status, and driver tracking workflows"
-        },
-        {
-          id: 6,
-          task: "Ensuring performance optimization, security, and responsive UI across devices"
-        }
+        { id: 0, task: "Developed web application using React (TypeScript)" },
+        { id: 1, task: "Built mobile application using React Native" },
+        { id: 2, task: "Integrated multiple payment gateways including Razorpay and Cashfree" },
+        { id: 4, task: "Developed backend services with Spring Boot (Java)" },
+        { id: 5, task: "Integrated Google and Facebook login via Firebase Authentication" },
+        { id: 6, task: "Ensured performance optimization, security, and responsive UI across devices" }
       ],
       skills_utilized: [
-        {
-          id: 0,
-          name: "React"
-        },
-        {
-          id: 1,
-          name: "TypeScript"
-        },
-        {
-          id: 2,
-          name: "React Native"
-        },
-        {
-          id: 3,
-          name: "Spring Boot"
-        },
-        {
-          id: 4,
-          name: "Java"
-        },
-        {
-          id: 5,
-          name: "Google Maps API"
-        },
-        {
-          id: 6,
-          name: "Mapbox"
-        },
-        {
-          id: 7,
-          name: "Stripe Payment Gateway" // example; you can add Cashfree/others if used
-        },
-        {
-          id: 8,
-          name: "Cashfree Payment Gateway"
-        },
-        {
-          id: 9,
-          name: "REST API"
-        },
-        {
-          id: 10,
-          name: "Responsive Design"
-        },
-        {
-          id: 11,
-          name: "Figma"
-        }
+        { id: 0, name: "HTML" },
+        { id: 1, name: "CSS" },
+        { id: 2, name: "JavaScript" },
+        { id: 3, name: "React" },
+        { id: 4, name: "TypeScript" },
+        { id: 5, name: "React Native" },
+        { id: 6, name: "Spring Boot" },
+        { id: 7, name: "Java" },
+        { id: 8, name: "PostgreSQL" },
+        { id: 9, name: "Razorpay Payment Gateway" },
+        { id: 10, name: "Cashfree Payment Gateway" },
+        { id: 11, name: "Firebase Authentication" },
+        { id: 12, name: "REST API" },
+        { id: 13, name: "Responsive Design" },
       ],
       organization: [
         {
@@ -547,153 +136,117 @@ export const data = {
           website: "https://www.rightbraininfotech.in/"
         }
       ]
-    }
-  ],
-  skills: [
-    {
-      id: 0,
-      name: "HTML",
-      icon: ""
-    },
-    {
-      id: 1,
-      name: "CSS",
-      icon: ""
-    },
-    {
-      id: 2,
-      name: "SCSS",
-      icon: ""
-    },
-    {
-      id: 3,
-      name: "JavaScript",
-      icon: ""
     },
     {
       id: 4,
-      name: "React",
-      icon: ""
-    },
+      project_name: "Aakakshi / Karma Accounting System",
+      project_date: "JUN 2025 - Present",
+      project_description:
+        "Aakakshi is a comprehensive karma and financial accounting system with AI-assisted recommendations, token tracking, and dashboards for interfaith reporting and self-improvement.",
+      project_tasks: [
+        { id: 0, task: "Developed web modules using React.js, Ant Design, and Bootstrap" },
+        { id: 1, task: "Built backend services using Spring Boot and REST APIs" },
+        { id: 2, task: "Created dashboards for tracking credits, debits, and token values" },
+        { id: 3, task: "Implemented AI-assisted recommendations and token evaluation logic" },
+        { id: 4, task: "Ensured responsive UI, performance optimization, and secure data handling" }
+      ],
+      skills_utilized: [
+        { id: 0, name: "HTML" },
+        { id: 1, name: "CSS" },
+        { id: 2, name: "JavaScript" },
+        { id: 3, name: "React" },
+        { id: 4, name: "TypeScript" },
+        { id: 5, name: "Ant Design" },
+        { id: 6, name: "Bootstrap" },
+        { id: 7, name: "Spring Boot" },
+        { id: 8, name: "REST APIs" },
+        { id: 9, name: "PostgreSQL" },
+        { id: 10, name: "AI Integration" },
+        { id: 11, name: "Responsive Design" }
+      ],
+      organization: [
+        { id: 0, name: "Right Brain Infotech LLP", website: "https://www.rightbraininfotech.in/" }
+      ]
+    }
 
+
+  ],
+  skills: [
+    { id: 0, name: "HTML", icon: "" },
+    { id: 1, name: "CSS", icon: "" },
+    { id: 2, name: "SCSS", icon: "" },
+    { id: 3, name: "JavaScript", icon: "" },
+    { id: 4, name: "TypeScript", icon: "" },
+    { id: 5, name: "React.js", icon: "" },
+    { id: 6, name: "Next.js", icon: "" },
+    { id: 7, name: "React Native", icon: "" },
+    { id: 8, name: "React Ionic", icon: "" },
+    { id: 9, name: "REST API", icon: "" },
+    { id: 10, name: "Firebase", icon: "" },
+    { id: 11, name: "Bootstrap", icon: "" },
+    { id: 12, name: "Ant Design", icon: "" },
+    { id: 13, name: "Material UI", icon: "" },
+    { id: 14, name: "TailwindCSS", icon: "" },
+    { id: 15, name: "Figma", icon: "" },
+    { id: 16, name: "Java", icon: "" },
+    { id: 17, name: "Spring Boot", icon: "" }
+  ],
+
+  services: [
+    {
+      id: 0,
+      name: "Web Design",
+      icon: "fas fa-pencil-paintbrush",
+      desc: "I design modern and user-friendly websites using tools like Figma, allowing clients to preview and interact with their website before development."
+    },
+    {
+      id: 1,
+      name: "Prototype / PSD to HTML",
+      icon: "fab fa-html5",
+      desc: "I convert prototypes or PSD designs into responsive, pixel-perfect HTML/CSS code using modern technologies like SASS."
+    },
+    {
+      id: 2,
+      name: "Clean & Valid Code",
+      icon: "fas fa-laptop-code",
+      desc: "I write clean, well-structured, and maintainable code, ensuring reusability and easy collaboration with other developers."
+    },
+    {
+      id: 3,
+      name: "Easy to Customize",
+      icon: "fas fa-cogs",
+      desc: "I build websites with flexibility in mind, making them easy to customize and extend with new features as your business grows."
+    },
+    {
+      id: 4,
+      name: "Multi-Device Website",
+      icon: "fas fa-phone-laptop",
+      desc: "I create fully responsive websites that work seamlessly across all devices — mobiles, tablets, desktops, and laptops."
+    },
     {
       id: 5,
-      name: "Next.js",
-      icon: ""
+      name: "Version Control",
+      icon: "fab fa-github",
+      desc: "I use Git and GitHub for version control, ensuring efficient project management, collaboration, and continuous updates."
     },
     {
       id: 6,
-      name: "React Native",
-      icon: ""
+      name: "Backend Development (Java & Spring Boot)",
+      icon: "fab fa-java",
+      desc: "I develop secure and scalable backend applications using Java and Spring Boot, building REST APIs and enterprise-grade systems."
     },
-
     {
       id: 7,
-      name: "Firebase",
-      icon: ""
+      name: "API Integration",
+      icon: "fas fa-plug",
+      desc: "I design and integrate RESTful APIs, enabling smooth communication between frontend and backend systems, third-party services, and databases."
     },
     {
       id: 8,
-      name: "Typescript",
-      icon: ""
-    },
-    {
-      id: 9,
-      name: "REST API",
-      icon: ""
-    },
-
-    {
-      id: 10,
-      name: "Bootstrap",
-      icon: ""
-    },
-    {
-      id: 11,
-      name: "Material UI",
-      icon: ""
-    },
-    {
-      id: 12,
-      name: "Figma",
-      icon: ""
-    },
-    {
-      id: 13,
-      name: "TailwindCSS",
-      icon: ""
-    },
-    {
-      id: 14,
-      name: "Medusa js",
-      icon: ""
-    },
-    {
-      id: 15,
-      name: "Java",
-      icon: ""
-    },
-    {
-      id: 16,
-      name: "Spring Boot",
-      icon: ""
+      name: "Database Management",
+      icon: "fas fa-database",
+      desc: "I work with relational databases like PostgreSQL and MySQL to design schemas, optimize queries, and ensure data integrity and performance."
     }
-  ],
- services: [
-  {
-    id: 0,
-    name: "Web Design",
-    icon: "fas fa-pencil-paintbrush",
-    desc: "I design modern and user-friendly websites using tools like Figma, allowing clients to preview and interact with their website before development."
-  },
-  {
-    id: 1,
-    name: "Prototype / PSD to HTML",
-    icon: "fab fa-html5",
-    desc: "I convert prototypes or PSD designs into responsive, pixel-perfect HTML/CSS code using modern technologies like SASS."
-  },
-  {
-    id: 2,
-    name: "Clean & Valid Code",
-    icon: "fas fa-laptop-code",
-    desc: "I write clean, well-structured, and maintainable code, ensuring reusability and easy collaboration with other developers."
-  },
-  {
-    id: 3,
-    name: "Easy to Customize",
-    icon: "fas fa-cogs",
-    desc: "I build websites with flexibility in mind, making them easy to customize and extend with new features as your business grows."
-  },
-  {
-    id: 4,
-    name: "Multi-Device Website",
-    icon: "fas fa-phone-laptop",
-    desc: "I create fully responsive websites that work seamlessly across all devices — mobiles, tablets, desktops, and laptops."
-  },
-  {
-    id: 5,
-    name: "Version Control",
-    icon: "fab fa-github",
-    desc: "I use Git and GitHub for version control, ensuring efficient project management, collaboration, and continuous updates."
-  },
-  {
-    id: 6,
-    name: "Backend Development (Java & Spring Boot)",
-    icon: "fab fa-java",
-    desc: "I develop secure and scalable backend applications using Java and Spring Boot, building REST APIs and enterprise-grade systems."
-  },
-  {
-    id: 7,
-    name: "API Integration",
-    icon: "fas fa-plug",
-    desc: "I design and integrate RESTful APIs, enabling smooth communication between frontend and backend systems, third-party services, and databases."
-  },
-  {
-    id: 8,
-    name: "Database Management",
-    icon: "fas fa-database",
-    desc: "I work with relational databases like PostgreSQL and MySQL to design schemas, optimize queries, and ensure data integrity and performance."
-  }
-]
+  ]
 
 };
