@@ -124,8 +124,8 @@ const Contact = () => {
           </Typography>
           <div className="border flex-1 ml-4"></div>
         </div>
-        <div className="rounded-2xl mt-10 shadow-lg bg-gradient-to-br from-pf-dark-med to to-gray-800 flex lg:flex-row flex-col p-4">
-          <div className="w-full flex-1 rounded-2xl bg-gradient-to-br from-pf-dark-max to-gray-900 p-8">
+        <div className="rounded-2xl mt-10 shadow-lg bg-[#121212] flex lg:flex-row flex-col p-4">
+          <div className="w-full flex-1 rounded-2xl bg-[#1f1f1f] p-8">
             <Typography variant="h5" fontWeight="bold" gutterBottom>
               Contact Information
             </Typography>

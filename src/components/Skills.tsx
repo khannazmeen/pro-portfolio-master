@@ -8,7 +8,7 @@ type Props = {
 const Skills = ({ skills }: Props) => {
   return (
     <div>
-      <div className="pf-container py-[60px]" id="skills">
+      <div className="pf-container py-[60px]">
         <div className="flex items-center">
           <Typography variant="h5" fontWeight="bold" gutterBottom>
             Skills
@@ -20,7 +20,7 @@ const Skills = ({ skills }: Props) => {
             skills.map((skill: Skills, index: number) => (
               <div
                 key={skill?.id}
-                className="w-full shadow-lg h-[100px] text-center flex items-center justify-center bg-gradient-to-br from-pf-dark-med to to-gray-800 rounded-xl flex-col"
+                className="w-full shadow-lg h-[100px] text-center flex items-center justify-center bg-[#121212] rounded-xl flex-col"
                 data-aos="fade-up"
                 data-aos-delay={`${50 * index}`}
               >

@@ -7,7 +7,7 @@ type Props = {
 
 const Services = ({ services }: Props) => {
   return (
-    <div className="bg-[#1c456d]" id="services">
+    <div className="bg-[1f1f1f]" id="services">
       <div className="pf-container py-[60px]">
         <div className="flex items-center">
           <Typography variant="h5" fontWeight="bold" gutterBottom>
@@ -20,7 +20,7 @@ const Services = ({ services }: Props) => {
             services.map((service, index) => (
               <div
                 key={service.id}
-                className="flex flex-col items-center justify-center text-center shadow-lg rounded-xl px-8 py-10 bg-gradient-to-br from-pf-dark-max to-gray-900"
+                className="flex flex-col items-center justify-center text-center shadow-lg rounded-xl px-8 py-10 bg-[#121212]"
                 data-aos="fade-up"
                 data-aos-delay={`${50 * index}`}
               >
