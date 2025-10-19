@@ -27,9 +27,9 @@ const Hero = ({ data }: Props) => {
                 className="max-w-[460px]"
                 gutterBottom
               >
-                I have built many industry grade projects from scratch and am
-                armed with many technological skills useful for tech projects.
-                Check out my projects below. :)
+                A passionate Software Engineer who loves building modern, scalable, and user-friendly web & mobile applications.
+                I specialize in turning creative ideas into seamless digital experiences that inspire and connect.
+                Check out my projects below. 🙂
               </Typography>
               <Typography
                 variant="body1"
