@@ -61,7 +61,7 @@ export const data = {
     },
 
     {
-      id: 4,
+      id: 2,
       project_name: "Travel-Classified",
       project_date: "JUL 2023 - JUN 2024",
       project_description:
@@ -99,7 +99,7 @@ export const data = {
       ]
     },
     {
-      id: 5,
+      id: 3,
       project_name: "CarRental",
       project_date: "JUL 2024 - JUN 2025",
       project_description:
