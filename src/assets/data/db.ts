@@ -3,7 +3,7 @@ export const data = {
     {
       id: 0,
       project_name: "Neev",
-      project_date: "JAN 2022 - APR 2022",
+      project_date: "JAN 2022 - FEB 2022",
       project_description:
         "Neev is a healthcare platform that allows users to book yoga classes, health products, and more via web",
       // project_link: "#",
@@ -32,7 +32,7 @@ export const data = {
     {
       id: 1,
       project_name: "Spotfinder",
-      project_date: "MAY 2022 - JUN 2023",
+      project_date: "MAR 2022 - AUG 2023",
       project_description:
         "Spotfinder is a platform that allows users to easily book car parkings via web and mobile app.",
       // project_link: "https://spotfinder.app/",
@@ -63,7 +63,7 @@ export const data = {
     {
       id: 2,
       project_name: "Travel-Classified",
-      project_date: "JUL 2023 - JUN 2024",
+      project_date: "SEP 2023 - FEB 2024",
       project_description:
         "Hajj & Umrah is a platform that allows users to make seamless inquiries and bookings for pilgrimage services via web and mobile app.",
       // project_link: "https://hajumrah.rightbraininfotech.in/",
@@ -101,7 +101,7 @@ export const data = {
     {
       id: 3,
       project_name: "CarRental",
-      project_date: "JUL 2024 - JUN 2025",
+      project_date: "MAR 2024 - AUG 2025",
       project_description:
         "CarRental - Car with Driver is a platform that allows users to seamlessly book rides with professional drivers via web and mobile app, with integrated payment gateways and social login.",
       // project_link: "https://carrental.rightbraininfotech.in/",
@@ -140,7 +140,7 @@ export const data = {
     {
       id: 4,
       project_name: "Aakakshi",
-      project_date: "JUN 2025 - Present",
+      project_date: "SEP 2025 - DEC 2025",
       project_description:
         "Aakakshi is a comprehensive karma and financial accounting system with AI-assisted recommendations, token tracking, and dashboards for interfaith reporting and self-improvement.",
       project_tasks: [
