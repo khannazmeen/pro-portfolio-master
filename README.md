@@ -20,6 +20,6 @@ Technologies Used:
 - Tailwind CSS
 - Node.js
 
-Visit my website at [KaranMaurya.vercel](https://karancodex.vercel.app/) to learn more about me and my work.
+Visit my website at [Nazmeen.vercel](https://pro-portfolio-master.vercel.app/) to learn more about me and my work.
 
 Feel free to customize the description further based on your specific website features, any additional technologies used, and any other relevant details you want to highlight.
