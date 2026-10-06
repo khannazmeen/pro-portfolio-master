@@ -136,7 +136,7 @@ const Contact = () => {
               <li>
                 <div className="flex items-center gap-4">
                   <i className="text-2xl min-w-[40px] min-h-[40px] rounded-md flex items-center justify-center bg-gradient-to-br from-purple-400 to-purple-800 fas fa-phone"></i>
-                  <Tooltip title="+91 7236089760" placement="bottom-start">
+                  <Tooltip title="+91 9657011263" placement="bottom-start">
                     <Typography className="truncate" variant="body1">
                       +91 9657011263
                     </Typography>
@@ -146,7 +146,7 @@ const Contact = () => {
               <li className="flex items-center gap-4">
                 <i className="text-2xl min-w-[40px] min-h-[40px] rounded-md flex items-center justify-center bg-gradient-to-br from-purple-400 to-purple-800 fas fa-envelope"></i>
                 <Tooltip
-                  title="reachtokarankumar@gmail.com"
+                  title="khannazmeen963@gmail.com"
                   placement="bottom-start"
                 >
                   <Typography className="truncate" variant="body1">

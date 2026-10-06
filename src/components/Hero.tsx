@@ -27,9 +27,7 @@ const Hero = ({ data }: Props) => {
                 className="max-w-[460px]"
                 gutterBottom
               >
-                A passionate Software Engineer who loves building modern, scalable, and user-friendly web & mobile applications.
-                I specialize in turning creative ideas into seamless digital experiences that inspire and connect.
-                Check out my projects below. 🙂
+             A passionate Frontend Developer specializing in building modern, scalable, and user-friendly web and mobile applications. I work with React.js, React Native, JavaScript, and TypeScript, with a strong focus on responsive interfaces, reusable components, and seamless user experiences. Explore my projects below to see what I’ve built. 🙂
               </Typography>
               <Typography
                 variant="body1"
